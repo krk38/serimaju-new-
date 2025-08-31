@@ -1,0 +1,126 @@
+.footer151-container1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.footer151-max-width {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.footer151-content {
+  gap: 32px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-top: 32px;
+  padding-left: 0px;
+  border-radius: 4px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: flex-start;
+}
+ 
+.footer151-image {
+  width: 200px;
+  object-fit: cover;
+}
+ 
+.footer151-actions {
+  gap: 24px;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+ 
+.footer151-newsletter {
+  gap: 24px;
+  width: 50%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.footer151-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.footer151-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.footer151-media {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+ 
+.footer151-container4 {
+  gap: 24px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+@media(max-width: 991px) {
+  .footer151-content {
+    flex-direction: row;
+  }
+  .footer151-newsletter {
+    width: 50%;
+  }
+  .footer151-media {
+    width: 50%;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .footer151-content {
+    gap: 32px;
+    width: auto;
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .footer151-actions {
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer151-newsletter {
+    width: 100%;
+  }
+  .footer151-media {
+    width: 100%;
+    align-items: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .footer151-content {
+    gap: 32px;
+  }
+  .footer151-newsletter {
+    width: 100%;
+  }
+  .footer151-media {
+    width: 100%;
+  }
+}

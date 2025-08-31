@@ -1,0 +1,16 @@
+.component-container {
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-right: 137px;
+  justify-content: flex-start;
+}
+ 
+.component-fragment {
+  display: contents;
+}
+ 
+.component-text2 {
+  display: inline-block;
+}

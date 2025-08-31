@@ -1,0 +1,137 @@
+.features13-layout226 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.features13-max-width {
+  gap: 48px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.features13-over-title1 {
+  height: auto;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 600px;
+  line-height: 150%;
+  font-stretch: normal;
+}
+ 
+.features13-title1 {
+  text-align: center;
+}
+ 
+.features13-action11 {
+  text-align: center;
+}
+ 
+.features13-over-title2 {
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: Roboto;
+  line-height: 150%;
+  font-stretch: normal;
+}
+ 
+.features13-title2 {
+  text-align: center;
+}
+ 
+.features13-action12 {
+  text-align: center;
+}
+ 
+.features13-fragment1 {
+  display: contents;
+}
+ 
+.features13-text1 {
+  display: inline-block;
+}
+ 
+.features13-fragment2 {
+  display: contents;
+}
+ 
+.features13-text2 {
+  display: inline-block;
+}
+ 
+.features13-fragment3 {
+  display: contents;
+}
+ 
+.features13-text3 {
+  display: inline-block;
+}
+ 
+.features13-fragment4 {
+  display: contents;
+}
+ 
+.features13-text4 {
+  display: inline-block;
+}
+ 
+.features13-fragment5 {
+  display: contents;
+}
+ 
+.features13-text5 {
+  display: inline-block;
+}
+ 
+.features13-fragment6 {
+  display: contents;
+}
+ 
+.features13-text6 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .features13-layout226 {
+    flex-direction: column;
+  }
+  .features13-max-width {
+    flex-direction: column;
+  }
+  .features13-content1 {
+    align-items: center;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .features13-actions1 {
+    flex-wrap: wrap;
+  }
+  .features13-actions2 {
+    flex-wrap: wrap;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .features13-max-width {
+    gap: 24px;
+  }
+  .features13-button1 {
+    width: 100%;
+  }
+  .features13-button2 {
+    width: 100%;
+  }
+}
